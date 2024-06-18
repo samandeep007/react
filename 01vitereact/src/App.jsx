@@ -1,13 +1,15 @@
 import Chai from './Chai'
 
+
+
 function App() {
 
+  const username = "Samandeep Singh"
 
   return (
     // <> You can return only one element inside jsx --> React fragments
    <>
-    <Chai/>
-    <h1>Samandeep singh</h1>
+    <h2>Good Morning {username}</h2> {/*curly brace will be treated as variable --> it should be final value*/}
     </>
   )
 }
